@@ -1,0 +1,17 @@
+This solidity files contain only one smart contract named "addTOken", which performs the action of adding tokens
+to different slabs accroding to the slab capacity and and remaining space in the current slab.
+
+Decisions taken are:
+
+1."tokenslabs" is an arrray of 5 elements which contains numbers from 100, 200, 300, 400, 500;
+
+2. "Totalsupply" is the number of tokens which have been added since contract deployment.
+ 
+3. "slabCapacities"  shows the capacities of slab.
+ 
+4.There are only two function :
+ "Deposite"  and "inquire" which is used to deposit token and inquire the slabs where they are present.
+ 
+
+ 
+ 
